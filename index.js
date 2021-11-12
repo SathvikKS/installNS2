@@ -4,7 +4,7 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 app.get('/', async (req, res) => {
-    const file = `${__dirname}\\public\\installNs2.sh`
+    const file = `${__dirname}//public//installNs2.sh`
     res.download(file);
 })
 
