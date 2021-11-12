@@ -13,7 +13,7 @@ sudo apt update
 sudo apt install wget build-essential autoconf automake libxmu-dev gcc-4.8 g++-4.8 -y
 
 # Checks for Java installation
-if [ -n `which java` ]; then
+if [ java -version 2>&1 >/dev/null | grep -q "java version" ]; then
   echo "Java is installed."
 else
   echo "Java is not installed!. Installing Java"
