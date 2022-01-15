@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ "$EUID" -ne 0 ]
-  then echo "Please run this script as root"
-  exit
-fi
-
 # Add repository for gcc 4.8 and g++ 4.8
 echo "deb http://in.archive.ubuntu.com/ubuntu/ bionic main universe" | sudo tee -a /etc/apt/sources.list
 
