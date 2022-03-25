@@ -20,6 +20,7 @@ sudo sed -i '$ d' /etc/apt/sources.list
 sudo apt update
 
 # Download and Extract ns-allinone-2.35.tar.gz
+cd
 mkdir installNS2-SKS
 cd installNS2-SKS
 wget https://www.dropbox.com/s/ytb6u0aa9q0bsae/ns-allinone-2.35.tar.gz
