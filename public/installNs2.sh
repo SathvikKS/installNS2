@@ -32,6 +32,7 @@ ns2Path=$(pwd)
 echo "export PATH="$ns2Path/bin:$ns2Path/tcl8.5.10/unix:$ns2Path/tk8.5.10/unix:$PATH"" >> ~/.bashrc
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ns2Path/otcl-1.14:$ns2Path/lib
 export TCL_LIBRARY=$TCL_LIBRARY:$ns2Path/tcl8.5.10/library
+source ~/.bashrc
 
 
 # Download NSG2.jar 
